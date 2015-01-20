@@ -3,26 +3,57 @@ body {
 	padding:0;
 }
 
+#header {
+	height:100px;
+   
+}
+
+#right{
+    position:relative;
+    padding-right:20px;
+    float:right;
+}
+
+.bartext {
+    text-decoration:none;
+    display:inline;
+    padding:8px;
+    color:#3E3E43
+        
+}
+
+#grid {
+    position:relative;
+    top:1px;
+    height:20px; width:20px;
+}
+
+.bartext:hover {
+    text-decoration:underline;
+}
+
 .content {
-	padding: 100px;
-	width:400px;
+	position: relative;
+    top:100px;
 	margin:0 auto; 
 }
 
 #logo {
-	background: url("googlelogo.png") no-repeat scroll 0% 0% / 269px 95px transparent;
+	background: url("http://4.bp.blogspot.com/-JOqxgp-ZWe0/U3BtyEQlEiI/AAAAAAAAOfg/Doq6Q2MwIKA/s1600/google-logo-874x288.png") no-repeat scroll 0% 0% / 269px 95px transparent;
 	height:95px; width:269px;
 	margin:auto;
 }
 
 #search {
-	padding:30px;
+    padding:20px;
+    width: 500px;
+    margin: auto;
 }
 
 .input {
 	outline: none !important;
-	margin-left:-30px;
-	width:450px;
+	margin: auto;
+	width:500px;
 	height:23px;
 	border:1px solid silver;
 
@@ -31,18 +62,17 @@ body {
 .input:focus {
 
 	border:1px solid #0095dd;
-	z-index: 100;
+	
 }
 
 .input:hover {
 	border-color: #A0A0A0 #B9B9B9 #B9B9B9 !important;
 }
 
-
-
-#header {
-	height:100px;
+#footer{
+    height:30px;
+    display:box;
+    background-color:silver;
+    position:fixed;
+    bottom:0;
 }
-
-
-
