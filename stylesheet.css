@@ -1,17 +1,28 @@
+
 body {
-	margin:0;
-	padding:0;
+    margin:0;
+    padding:0;
+  font-family:arial, sans-serif;
+  font-size:13px;
 }
 
 #header {
-	height:100px;
+    height:100px;
    
 }
 
-#right{
+.right{
     position:relative;
     padding-right:20px;
     float:right;
+    color:#666;
+}
+
+.left{
+    position:relative;
+    padding-left:20px;
+    float:left;
+    color:#666;
 }
 
 .bartext {
@@ -33,15 +44,68 @@ body {
 }
 
 .content {
-	position: relative;
+    position: relative;
     top:100px;
-	margin:0 auto; 
+    margin:0 auto; 
+}
+
+#bluelink{
+  text-decoration:none;
+}
+
+#bluelink:hover{
+  text-decoration:underline;
+}
+
+.buttons{
+  position:relative;
+  top:10px;
+  margin:0 auto;
+}
+
+#buttons{
+  width:230px;
+  position:relative;
+  margin:auto;
+  background-color:black;
+}
+
+#searchbutton{
+  float:left;
+  position:relative;
+  height:30px; width:100px;
+  margin:auto;
+}
+
+#lucky{
+  float:right;
+  position:relative;
+  height:30px; width:110px;
+  margin:auto;
+}
+
+#searchb{
+  font: bold 11px/27px Arial,sans-serif!important;
+}
+
+#luckyb{
+  font: bold 11px/27px Arial,sans-serif!important;
+}
+
+#french {
+  position:relative;
+  text-align:center;
+  top:40px;
+}
+
+#frenchc {
+  margin:auto;
 }
 
 #logo {
-	background: url("http://4.bp.blogspot.com/-JOqxgp-ZWe0/U3BtyEQlEiI/AAAAAAAAOfg/Doq6Q2MwIKA/s1600/google-logo-874x288.png") no-repeat scroll 0% 0% / 269px 95px transparent;
-	height:95px; width:269px;
-	margin:auto;
+    background: url("googlelogo.png") no-repeat scroll 0% 0% / 269px 95px transparent;
+    height:95px; width:269px;
+    margin:auto;
 }
 
 #search {
@@ -51,28 +115,28 @@ body {
 }
 
 .input {
-	outline: none !important;
-	margin: auto;
-	width:500px;
-	height:23px;
-	border:1px solid silver;
-
-}
-
-.input:focus {
-
-	border:1px solid #0095dd;
-	
+    outline: none !important;
+    margin: auto;
+    width:500px;
+    height:23px;
+    border:1px solid silver;
 }
 
 .input:hover {
-	border-color: #A0A0A0 #B9B9B9 #B9B9B9 !important;
+    border-color: #A0A0A0 #B9B9B9 #B9B9B9 ;
 }
 
+.input:focus {
+    border:1px solid #0095dd !important;
+}
+
+
+
 #footer{
-    height:30px;
-    display:box;
-    background-color:silver;
+    display:block;
+    width:100%;
+    height:40px;
+    background-color:#F2F2F2;
     position:fixed;
     bottom:0;
 }
